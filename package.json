@@ -1,0 +1,22 @@
+{
+  "name": "install",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backgroundgen.js",
+  "scripts": {
+    "build": "browserify backgroundgen.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddyhalljr/background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buddyhalljr/background-generator/issues"
+  },
+  "homepage": "https://github.com/buddyhalljr/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
